@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'UpdateMe',
-  tagline: 'UpdateMe',
-  url: 'https://UpdateMe.com',
+  title: "Omair's Salesforce Notes",
+  tagline: 'May the Sales Force be with you',
+  url: 'https://salesforce-notes.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'UpdateMe_GithubUser', // Usually your GitHub org/user name.
-  projectName: 'UpdateMe_GithubProject', // Usually your repo name.
+  organizationName: 'omair-inam', // Usually your GitHub org/user name.
+  projectName: 'salesforce-notes', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/UpdateMe_GithubUser/UpdateMe_GithubProject/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/omair-inam/salesforce-notes/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false,
         theme: {
@@ -52,9 +52,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'UpdateMe',
+        title: "Omair's Salesforce Notes",
         logo: {
-          alt: 'UpdateMe Logo',
+          alt: 'Salesforce Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,7 +67,7 @@ const config = {
           },
 */
           {
-            href: 'https://github.com/UpdateMe_GithubUser/UpdateMe_GithubProject',
+            href: 'https://github.com/omair-inam/salesforce-notes',
             label: 'GitHub',
             position: 'right',
           },
@@ -108,13 +108,13 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/UpdateMe_GithubUser/UpdateMe_GithubProject',
+                href: 'https://github.com/omair-inam/salesforce-notes',
               },
             ],
           },
         ],
  */       
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="UpdateMe">UpdateMe_ProjectName</a> Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/omair-inam/salesforce-notes">salesforce-notes</a> Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
