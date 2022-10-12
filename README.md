@@ -1,14 +1,11 @@
-# Website
-This is a template repo for using [Docusaurus 2](https://docusaurus.io/) to generate a docs-only website.
+# Omair's Salesforce Notes
+These are Omair's uncensored notes on Salesforce Platform development
 
 ### Installation
 
 ```
 $ yarn
 ```
-
-### Setup
-* Search for all instances of `UpdateMe` in the codebase and replace with a suitable value for your project.
 
 ### Local Development
 
